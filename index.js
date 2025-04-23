@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-app.get('/api', (req, res) => {
+app.get('/api1', (req, res) => {
     const tiempo = parseInt(req.query.tiempo) || 0;
     
     const estudiante = new RutinaEstudio(tiempo);
@@ -14,7 +14,7 @@ app.get('/api', (req, res) => {
 });
 
 // Endpoint POST para obtener rutina de estudio (alternativa)
-app.post('/api', (req, res) => {
+app.post('/api2', (req, res) => {
     const tiempo = parseInt(req.body.tiempo) || 0;
     
     const estudiante = new RutinaEstudio(tiempo);
