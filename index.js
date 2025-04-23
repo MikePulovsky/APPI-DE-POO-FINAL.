@@ -1,4 +1,4 @@
-const RutinaEstudio = require('../rutinas');
+const RutinaEstudio = require('./rutina');
 // Exportamos la clase para usarla en otros archivos
 const express = require('express');
 const app = express();
