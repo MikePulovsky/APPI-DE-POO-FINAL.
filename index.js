@@ -1,6 +1,5 @@
+const RutinaEstudio = require('../rutina');
 // Exportamos la clase para usarla en otros archivos
-module.exports = { RutinaEstudio };
-
 const express = require('express');
 const app = express();
 app.use(express.json());
@@ -40,3 +39,4 @@ if (require.main === module) {
 }*/
 
 // Exporta la app para Vercel
+module.exports = app;
