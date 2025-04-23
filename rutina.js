@@ -97,4 +97,4 @@ class RutinaEstudio {
 const estudiante = new RutinaEstudio(2);
 estudiante.generatiempoestudio();
 console.log(estudiante.rutinasdeEstudio);
-module.exports = { RutinaEstudio };
+module.exports = RutinaEstudio ;
