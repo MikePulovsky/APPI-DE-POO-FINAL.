@@ -17,4 +17,7 @@ La API analiza la situacion del estudiante referente al tiempo del usuario.
 Se genera una rutina optimizada.
 
 
-
+CUANDO USTEDES ESTE EN VERCEL, PARA CAMBIAR SU TIEMPO DE RUTINA USEN:
+POR EJEMPLO:
+https://appi-de-poo-final-imsj.vercel.app/api?tiempo=2
+API ES LA R UTA, ?TIEMPO=2 es el tiempo que usted tiene libre para asignarle la rutina
